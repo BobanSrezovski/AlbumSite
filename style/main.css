@@ -1,0 +1,106 @@
+#link-navbar h4 {
+  color: white;
+}
+
+#link-navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+#link-navbar ul li {
+  margin-top: 3px;
+}
+
+#link-navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav #logo-album svg,
+nav #logo-album span {
+  color: white;
+}
+
+nav #logo-album svg {
+  width: 20px;
+  height: 20px;
+}
+
+nav #logo-album span {
+  color: white;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+}
+
+main .section-one {
+  padding: 10vh 0;
+}
+
+main .section-one h1 {
+  font-weight: lighter;
+}
+
+main .section-one p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+main .section-two {
+  background-color: #f8f9fa;
+  padding: 10vh 0;
+}
+
+main .section-two .card {
+  text-align: initial;
+}
+
+main .section-two .card img {
+  height: 15rem;
+}
+
+main .section-two .card button {
+  margin: 0;
+}
+
+main .section-two .card .card-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+main .section-two .card .card-buttons div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .section-two .card .card-buttons button {
+  font-size: 0.8rem;
+  outline: none !important;
+}
+
+main .section-two .card .card-buttons .first-btn {
+  border-radius: 5px 0 0 5px;
+}
+
+main .section-two .card .card-buttons .second-btn {
+  border-radius: 0 5px 5px 0;
+  border-left-width: 0;
+}
+
+main .section-two .card .card-buttons span {
+  color: #6c757d;
+}
+
+footer .footer {
+  padding: 6vh 0;
+  color: #6c757d;
+}
+/*# sourceMappingURL=main.css.map */
